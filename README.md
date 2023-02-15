@@ -1,5 +1,5 @@
-# Homework HTML / CSS module 3
+# Homework HTML / CSS module 4
 
 ---
 
-## Preview - [link GitHub pages](https://dimaestro.github.io/goit-markup-hw-03/ 'GitHub pages')
+## Preview - [link GitHub pages](https://dimaestro.github.io/goit-markup-hw-04/ 'GitHub pages')
