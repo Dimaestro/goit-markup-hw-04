@@ -238,6 +238,7 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 
+  border-radius: 4px;
   background-color: var(--cloud-color);
 }
 
@@ -316,7 +317,7 @@ body {
   display: flex;
   gap: var(--item-gap);
 }
-.customers-item {
+.customers-link {
   width: 168px;
   height: 88px;
   display: flex;
@@ -327,11 +328,11 @@ body {
   border-radius: 4px;
 }
 
-.customers-item:hover {
+.customers-link:is(:hover, :focus) {
   border-color: var(--pressed-state-color);
 }
 
-.customers-item:hover .customers-icon {
+.customers-link:is(:hover, :focus) .customers-icon {
   fill: var(--pressed-state-color);
 }
 
@@ -389,7 +390,8 @@ body {
 }
 
 .card-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .card-wrap {
@@ -407,6 +409,11 @@ body {
 
   background-color: var(--dark-color);
 }
+
+.footer-logo-wrap {
+  margin-right: 120px;
+}
+
 .footer-logo {
   display: block;
   margin-bottom: 16px;
@@ -421,8 +428,8 @@ body {
 
 .footer-wrap {
   display: flex;
-  gap: 120px;
 }
+
 .footer-socials-title {
   margin-bottom: 16px;
 
@@ -438,6 +445,11 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-socials-wrap .social-link:hover {
+.footer-socials-wrap .social-link:is(:hover, :focus) {
   background-color: #31d0aa;
+}
+
+.footer-socials-wrap .social-icon {
+  width: 24px;
+  height: 24px;
 }
