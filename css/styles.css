@@ -434,7 +434,7 @@ body {
   margin-bottom: 16px;
 
   font-weight: 500;
-  color: #ffffff;
+  color: var(--white-element);
 }
 
 .footer-socials-wrap .social-list {
